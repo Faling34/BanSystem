@@ -1,0 +1,37 @@
+# 🛑 **BanSystem Skript für Minecraft**
+
+Dieses Skript bietet ein **einfaches Ban-System** für Minecraft-Server, das mit dem **Skript-Plugin** (Spigot oder Paper) verwendet werden kann. Alle Einstellungen sind vollständig anpassbar über die `config.yml`!
+
+## 📜 **Features**
+
+- 🚫 **Spieler bannen und entbannen**  
+- 🔍 **Überprüfen, ob ein Spieler gebannt ist**  
+- 🛑 **Automatisches Kicken von gebannten Spielern** beim Betreten des Servers  
+- ⚙️ **Konfigurierbare Berechtigungen und Nachrichten**
+
+---
+
+## 📦 **Installation**
+
+### 1. **Skript-Plugin installieren**
+Stelle sicher, dass das **Skript-Plugin** auf deinem Minecraft-Server installiert ist (Spigot oder Paper).
+
+### 2. **Skript hochladen**
+Lade die Datei `ban.sk` in den Ordner `plugins/Skript/scripts/` hoch.
+
+### 3. **Skript laden**
+Nutze den folgenden Befehl, um das Skript zu aktivieren:
+
+### 4. **Config.yml anpassen**
+Eine **Config.yml** wird automatisch unter `plugins/Skript/scripts/config.yml` erstellt. Passe die Datei nach deinen Wünschen an!
+
+
+## ⚙️ **Config.yml**
+
+Die **Config.yml** enthält folgende Optionen:
+
+```yml
+ban-message: "&cDu wurdest vom Server gebannt!" 
+permission-ban: "ban.use"                       
+permission-unban: "ban.unban"                   
+permission-checkban: "ban.check"                
